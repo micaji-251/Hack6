@@ -1,0 +1,57 @@
+
+.fav{
+    width:1200px;
+    margin:0 auto;
+
+    &__container{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:40px;
+
+        .fav__items{
+            box-shadow: 0 0 26px rgb(153, 164, 169);
+            padding:40px;
+            display:flex;
+            align-items:center;
+
+            .fav__imgcontainer{
+                display:flex;
+                align-items:center;
+                margin-bottom:20px;
+                width: 25%;
+                float:left;
+                margin-right: 20px;
+
+                .fav__img{
+                    width: 100%;
+                }
+
+            }
+
+            .fav__textcontainer{
+
+                width: 75%;
+                float:left;
+
+                .test__title__stars__img{
+                    height:29px;
+                }
+                .fav__title{
+                    color: rgb(232, 80, 91);
+                    margin:10px 0;
+                    font-weigth:900;
+                    font-size:1.75rem;
+
+                }
+
+                .fav__text{
+                    line-height:1.5;
+                    color:rgb(69, 90, 100);
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+
+}

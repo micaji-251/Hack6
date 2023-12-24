@@ -1,0 +1,44 @@
+$redcolor: rgb(232, 80, 91);
+
+.header{
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+
+    .logo{
+        width: 300px;
+
+    }
+
+    .usuario__list{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+            .usuario__link--blanco{
+                color: white;
+            }
+
+    }
+}
+
+.usuario__item{
+    color:black;
+    padding:12px 10px;
+    font-weight: 900;
+    display:flex;
+    align-items:center;
+
+    &--rojo{
+        
+        background-color: $redcolor;
+        border-radius: 10px;
+        padding:12px 30px;
+        color: white;
+        font-size: 1.5rem;
+        border: none;
+        
+    }
+}

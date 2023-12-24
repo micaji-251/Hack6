@@ -1,0 +1,33 @@
+.appcomida{
+
+    width:1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    &__container{
+        display:flex;
+
+        .appcomida__imgcontainer{
+            width:45%;
+            float:left;
+
+            .appcomida__img{
+                width:100%;
+            }
+
+        }
+
+        .appcomida__text{
+            width:45%;
+            margin-left:50px;
+
+            &__p{
+                margin:20px 0;
+                font-size:1.25rem;
+                line-height:1.5;
+
+            }
+
+        }
+    }
+}

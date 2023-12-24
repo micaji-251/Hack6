@@ -1,0 +1,47 @@
+@import "./appcomida.scss";
+@import "./fav";
+@import "./footer";
+@import "./header";
+@import "./howto";
+@import "./pickfood";
+@import "./separator";
+@import "./test";
+
+
+$redcolor: rgb(232, 80, 91);
+
+body{
+    width:1800px;
+}
+
+
+
+.section__title{
+    text-align:center;
+    font-size: 2.25rem;
+    padding: 50px 30px;
+    font-weight: 900;
+
+    &--white{
+        color:white;
+        padding:20px;
+    }
+
+    &--bigpadd{
+        padding-top:80px;
+    }
+
+    &--gray{
+        color:rgb(69, 90, 100);
+    }
+}
+
+.section__text{
+    text-align:center;
+    font-size: 1.5rem;
+    padding: 1px 0;
+    font-weight: 700;
+    color:white;
+
+ 
+}
